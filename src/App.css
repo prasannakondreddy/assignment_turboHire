@@ -36,3 +36,88 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  padding: 0;
+  margin: 0
+}
+
+.container {
+  height: 100vh;
+  background-color: #ccc;
+  position: relative
+}
+
+.container .sidebar {
+  position: fixed;
+  background-color: #fff;
+  height: 100vh;
+  width: 190px;
+  z-index: 10;
+  text-align: center;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.1)
+}
+
+.container .content {
+  padding-left: 75px
+}
+
+/* sidebar */
+.side-bar{
+/* height: 90vh;
+width: 20vw; */
+padding: 1rem;
+margin-left: 20px;
+background-color: #fff;
+position: absolute;
+}
+.side-bar-comp{
+  border-style: solid;
+  border-color:black;
+  border-width: 1.5px;
+  border-radius:7px;
+  display: flex;
+  margin: 15px;
+  
+}
+
+.img-holder{
+  border-style: solid;
+  border-color:black;
+  border-width: 1.5px;
+  border-radius:5px;
+  width: 80px;
+  height: 50px;
+  margin: 1rem;
+}
+
+.container-2{
+display: flex;
+gap: 200px;
+
+}
+
+.card-title{
+  font-size: 0.9rem;
+
+}
+.card-text{
+ font-size: 0.6rem;
+}
+.card-body{
+  margin: 1rem;
+}
+.form-container{
+  margin: 2rem;
+  float: right;
+  padding-right: 10rem;
+}
+
+.file-holder{
+  border-style: solid;
+  border-color:rgb(125, 123, 123);
+  border-width: 1.5px;
+  border-radius:5px;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
